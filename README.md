@@ -1,7 +1,7 @@
-Copy Swift Code [Sketch] Plugin
+Copy Objective-C Code [Sketch] Plugin
 ===============================
 
-Copy fill color as Swift code
+Copy fill color as Objective-C code
 
 ![Screen](screen.gif)
 
@@ -13,7 +13,7 @@ Download and unarchive latest version from [Releases] page.
 Author
 ------
 
-[Atsushi NAGASE](http://ngs.io)
+[Jaime Zaragoza](http://jaimeeee.com) based on the work of [Atsushi NAGASE](http://ngs.io)
 
 License
 -------
@@ -21,5 +21,5 @@ License
 See [LICENSE]
 
 [Sketch]: http://www.sketchapp.com
-[Releases]: https://github.com/ngs/sketchplugin-swift-color/releases
+[Releases]: https://github.com/jaimeeee/sketchplugin-objc-color/releases
 [LICENSE]: ./LICENSE

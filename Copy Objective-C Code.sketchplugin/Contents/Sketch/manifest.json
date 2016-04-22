@@ -1,5 +1,5 @@
 {
-  "author": "Atsushi Nagase",
+  "author": "Jaime Zaragoza",
   "commands" : [
     {
       "script" : "script.cocoascript",
@@ -21,12 +21,12 @@
       "copy-ui-color",
       "copy-ns-color"
     ],
-    "title" : "Copy Swift Code"
+    "title" : "Copy Objective-C Code"
   },
-  "identifier" : "io.ngs.sketchplugin.swift-color",
+  "identifier" : "com.jaimeeee.sketchplugin.objc-color",
   "version" : "1.0",
-  "description": "Copy fill color as Swift code",
-  "homepage": "http://github.com/ngs/sketchplugin-swift-color",
-  "authorEmail" : "a@ngs.io",
-  "name" : "Copy Swift Code"
+  "description": "Copy fill color as Objective-C code",
+  "homepage": "https://github.com/jaimeeee/sketchplugin-objc-color",
+  "authorEmail" : "hola@jaimeeee.com",
+  "name" : "Copy Objective-C Code"
 }

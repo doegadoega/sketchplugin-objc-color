@@ -26,13 +26,13 @@ function generateCode(initializer, context) {
           , color = fill.color()
           ;
         res.push(
-          'let ' + varName +
+          initializer + ' *' + varName +
           (varCount > 1 ? varCount : '') +
-          ' = ' + initializer + '(' +
-          'red: ' + color.red()  + ', ' +
-          'green: ' + color.green()  + ', ' +
-          'blue: ' + color.blue()  + ', ' +
-          'alpha: ' + color.alpha()  + ')'
+          ' = [' + initializer + ' ' +
+          'colorWithRed:' + color.red()  + ' ' +
+          'green:' + color.green()  + ' ' +
+          'blue:' + color.blue()  + ' ' +
+          'alpha:' + color.alpha()  + '];'
         );
       }
     }
